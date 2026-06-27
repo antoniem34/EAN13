@@ -4,6 +4,16 @@ Herramienta local para generar codigos de barras EAN-13 en formato SVG, lista pa
 
 ## Usarlo en esta computadora
 
+En Windows puedes abrirlo con doble clic:
+
+```text
+iniciar-ean13.bat
+```
+
+El archivo instala dependencias si faltan y abre `http://127.0.0.1:5173`.
+
+Tambien puedes usar comandos:
+
 Instala dependencias una vez:
 
 ```bash
