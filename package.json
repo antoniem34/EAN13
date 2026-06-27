@@ -1,0 +1,27 @@
+{
+  "name": "ean13",
+  "version": "1.0.0",
+  "description": "Generador local de codigos de barras EAN-13 en SVG.",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "vite --host 127.0.0.1",
+    "dev": "vite --host 127.0.0.1",
+    "preview": "vite preview --host 127.0.0.1",
+    "build": "vite build",
+    "test": "vitest run"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "jsbarcode": "^3.12.3",
+    "lucide": "^1.21.0"
+  },
+  "devDependencies": {
+    "jsdom": "^29.1.1",
+    "playwright": "^1.61.1",
+    "vite": "^8.1.0",
+    "vitest": "^4.1.9"
+  }
+}
