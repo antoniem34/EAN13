@@ -12,6 +12,12 @@ iniciar-ean13.bat
 
 El archivo instala dependencias si faltan y abre `http://127.0.0.1:5173`.
 
+Para crear accesos directos en el Escritorio y en el menu Inicio:
+
+```powershell
+powershell -ExecutionPolicy Bypass -File .\scripts\create-shortcuts.ps1
+```
+
 Tambien puedes usar comandos:
 
 Instala dependencias una vez:
